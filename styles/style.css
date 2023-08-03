@@ -10,6 +10,7 @@
 body{
   background: #f2f2f2;
   font-family: 'Noto Sans', sans-serif;
+  width: 1040px;
 }
 
 section{
@@ -17,15 +18,32 @@ section{
   padding: 0;
   position: relative;
   box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  margin: 0 auto;
+  width: 100%;
 }
 
 #sidebar {
   display: block;
   position: absolute;
-  left: 576px;
+  right: 1rem;
   top: 0px;
   width: 384px;
   height: 324px;
+}
+
+#sidebar h3{
+  padding: 14px 20px 6px 20px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+#searchbox {
+  display: block;
+  position: absolute;
+  right: 1.2rem;
+  top: 1rem;
 }
 
 #transcript {
