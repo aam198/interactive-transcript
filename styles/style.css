@@ -46,6 +46,26 @@ section{
   top: 1rem;
 }
 
+#searchbox span{
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  line-height: 1.5rem;
+  font-size: 12px;
+  color: #666;
+}
+
+#searchbox input{
+  display: block;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  width: 180px;
+  padding: 4px 1.6rem;
+  border-radius: 4px;
+  background: #DDD url(http://demo.jwplayer.com/iframes/interactive-transcript/search.png) no-repeat top left;
+  border: none;
+}
+
 #transcript {
   height: 264px;
   overflow: auto;
