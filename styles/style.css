@@ -72,3 +72,39 @@ section{
   font-size: 13px;
   padding: 0 20px;
 }
+
+#transcript span {
+  display: inline;
+  padding: 4px 2px;
+  font-size: 1rem;
+  line-height: 1.6;
+  cursor: pointer;
+  color: #666;
+}
+
+#transcript span.current{
+  background:rgb(0, 156, 222);
+  color: #000;
+}
+
+#transcript span:hover{
+  color: rgb(0, 156, 222);
+}
+
+#transcript span em{
+  font-style: normal;
+  background: #666;
+  color: #fff;
+}
+
+#transcript span em.current{
+  background: #E41;
+}
+
+#transcript p {
+  margin: 0 0 10px 0;
+}
+
+#transcript h4{
+  margin: 0 0 5px 0;
+}
