@@ -39,17 +39,21 @@ section{
   color: #333;
 }
 
+.sidebar-top{
+  padding-bottom: 1rem;
+}
+
 #searchbox {
-  display: block;
+  display:block;
   position: absolute;
-  right: 1.2rem;
+  right: 0;
   top: 1rem;
 }
 
 #searchbox span{
   position: absolute;
   right: 10px;
-  top: 6px;
+  top: 5px;
   line-height: 1.5rem;
   font-size: 12px;
   color: #666;
@@ -59,10 +63,13 @@ section{
   display: block;
   line-height: 1.5rem;
   font-size: 0.8rem;
-  width: 180px;
-  padding: 4px 1.6rem;
+  width: 13rem;
+  padding: 5px 2.7rem 5px 2.3rem;
   border-radius: 4px;
-  background: #DDD url(http://demo.jwplayer.com/iframes/interactive-transcript/search.png) no-repeat top left;
+  background-image: url(http://demo.jwplayer.com/iframes/interactive-transcript/search.png); 
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-color: #ddd;
   border: none;
 }
 
