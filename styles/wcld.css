@@ -1,0 +1,23 @@
+.jwplayer.jw-skin-wcld .jw-display-icon-container {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 50%;
+  padding: 1em;
+  transition: border-color 200ms ease-in;
+}
+
+.jwplayer.jw-skin-wcld .jw-display-icon-container:hover {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 50%;
+  border-color: #009cde;
+  padding: 1em;
+}
+
+.jwplayer.jw-skin-wcld .jw-button-color{
+  color: #ffffff;
+}
+
+.jwplayer.jw-skin-wcld .jw-button-color:hover{
+  color: #009cde;
+}

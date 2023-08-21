@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Interactive Transcript</title>
+  <link rel="stylesheet" type="text/css" href="styles/wcld.css"> </link>
   <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
@@ -90,30 +91,31 @@
     <p>&nbsp;</p>
     <h4>Single Video Embed</h4><!--VIDEO EMBED CODE STARTS HERE--><!--Multi-Bitrate Generator Version 3.0--><script type="text/javascript" src="https://cdn.jwplayer.com/libraries/L6RiePc5.js">
     </script>
-    <div class="jwEmbedCodePlayer" id="video_BA322_PPTcrazyTalk_2">Loading the player
+    <div class="jwEmbedCodePlayer" id="video_Allie_addVideo_2">Loading the player
     </div>
     <script> 
-      jwplayer('video_BA322_PPTcrazyTalk_2').setup({
+      jwplayer('video_Allie_addVideo_2').setup({
         "skin": {
-          "controlbar": {
-            "background": "rgba(0,0,0,0)",
-            "icons": "rgba(255,255,255,0.8)",
-            "iconsActive": "#009cde",
-            "text": "#FFFFFF"
-          },
-          "menus": {
-            "background": "#333333",
-            "text": "rgba(255,255,255,0.8)",
-            "textActive": "rgb(62,163,158)"
-          },
-          "timeslider": {
-            "progress": "#FFFFFF",
-            "rail": "rgba(0,156,222,0.3)"
-          },
-          "tooltips": {
-            "background": "#FFFFFF",
-            "text": "#000000"
-          }
+          name: "wcld"
+          // "controlbar": {
+          //   "background": "rgba(0,0,0,0)",
+          //   "icons": "rgba(255,255,255,0.8)",
+          //   "iconsActive": "#009cde",
+          //   "text": "#FFFFFF"
+          // },
+          // "menus": {
+          //   "background": "#333333",
+          //   "text": "rgba(255,255,255,0.8)",
+          //   "textActive": "rgb(62,163,158)"
+          // },
+          // "timeslider": {
+          //   "progress": "#FFFFFF",
+          //   "rail": "rgba(0,156,222,0.3)"
+          // },
+          // "tooltips": {
+          //   "background": "#FFFFFF",
+          //   "text": "#000000"
+          // }
         },
         "width": 640,
         "height": 360,
@@ -127,10 +129,10 @@
           {
             "image": "/public/multimedia/videoFiles/JPG/BA322_PPTcrazyTalk.jpg",
             "sources": [
-              {
-                "file": "/public/multimedia/videoFiles/M3U8_S3/BA322_PPTcrazyTalk.m3u8"
-              }
-            ],
+                {
+                  "file": "./assets/video/ALLIE101_addpapers.mp4"
+                }
+              ],
             "tracks": [
               {
                 "file": "/public/multimedia/videoFiles/SRT/BA322_PPTcrazyTalk.srt",
