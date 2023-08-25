@@ -1,3 +1,4 @@
+/* Ring around Play button  */
 .jwplayer.jw-skin-wcld .jw-display-icon-container {
   border-style: solid;
   border-width: medium;
@@ -5,11 +6,8 @@
   padding: 1em;
   transition: border-color 200ms ease-in;
 }
-
+/* Ring around Play button hover  */
 .jwplayer.jw-skin-wcld .jw-display-icon-container:hover {
-  border-style: solid;
-  border-width: medium;
-  border-radius: 50%;
   border-color: #009cde;
   padding: 1em;
 }
@@ -17,21 +15,19 @@
 .jwplayer.jw-skin-wcld .jw-button-color{
   color: #ffffff;
 }
-/* 
-.jwplayer.jw-skin-wcld .jw-display-icon-container.jw-icon-display.jw-button-color svg.jw-svg-icon-play:hover{
-  color: #ffffff;
-} */
-
 
 .jwplayer.jw-skin-wcld .jw-display-icon-container.jw-icon-display svg.jw-svg-icon-play:hover{
-  color: #ffffff;
+  fill: #009cde;
 }
 
 .jwplayer.jw-skin-wcld .jw-button-container .jw-icon:hover{
   color: #009cde;
 }
 
-/* 
-.jwplayer.jw-skin-wcld .jw-icon.jw-button-color:hover{
-  color: #009cde;
-} */
+.jwplayer.jw-skin-wcld .jw-display-icon-container .jw-icon > .jw-svg-icon svg.jw-svg-icon-play:hover{
+  fill: red;
+}
+
+.jw-icon .jw-icon-display .jw-button-color .jw-reset{
+  color: red;
+}
