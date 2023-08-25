@@ -17,7 +17,21 @@
 .jwplayer.jw-skin-wcld .jw-button-color{
   color: #ffffff;
 }
+/* 
+.jwplayer.jw-skin-wcld .jw-display-icon-container.jw-icon-display.jw-button-color svg.jw-svg-icon-play:hover{
+  color: #ffffff;
+} */
 
-.jwplayer.jw-skin-wcld .jw-button-color:hover{
+
+.jwplayer.jw-skin-wcld .jw-display-icon-container.jw-icon-display svg.jw-svg-icon-play:hover{
+  color: #ffffff;
+}
+
+.jwplayer.jw-skin-wcld .jw-button-container .jw-icon:hover{
   color: #009cde;
 }
+
+/* 
+.jwplayer.jw-skin-wcld .jw-icon.jw-button-color:hover{
+  color: #009cde;
+} */
