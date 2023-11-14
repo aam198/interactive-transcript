@@ -40,3 +40,7 @@
 .jw-icon .jw-icon-display .jw-button-color .jw-reset{
   color: red;
 }
+
+.jwplayer.jw-skin-wcld .jw-slider-horizontal.jw-chapter-slider-time .jw-slider-container .jw-timesegment-background{
+  background-color: rgba(0,156,222,0.3);
+}
