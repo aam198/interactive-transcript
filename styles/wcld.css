@@ -41,6 +41,14 @@
   color: red;
 }
 
+/* JW Rail */
+
 .jwplayer.jw-skin-wcld .jw-slider-horizontal.jw-chapter-slider-time .jw-slider-container .jw-timesegment-background{
   background-color: rgba(0,156,222,0.3);
 }
+
+/* JW Rail */
+
+/* .jwplayer.jw-skin-wcld .jw-rail {
+  background-color: rgba(115, 133, 159, 0.95);
+} */
